@@ -30,13 +30,13 @@
   },
   "jest": {
     "collectCoverageFrom": [
-      "shared/**/*.{js,jsx}"
+      "src/**/*.{js,jsx}"
     ],
     "snapshotSerializers": [
       "<rootDir>/node_modules/enzyme-to-json/serializer"
     ],
     "testPathIgnorePatterns": [
-      "<rootDir>/(build|internal|node_modules|flow-typed|public)/"
+      "<rootDir>/(build|internal|node_modules|public)/"
     ]
   },
   "repository": {
@@ -57,17 +57,6 @@
     "url": "https://github.com/ctrlplusb/react-universally/issues"
   },
   "homepage": "https://github.com/ctrlplusb/react-universally#readme",
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx}"
-    ],
-    "snapshotSerializers": [
-      "<rootDir>/node_modules/enzyme-to-json/serializer"
-    ],
-    "testPathIgnorePatterns": [
-      "<rootDir>/(build|internal|node_modules|public)/"
-    ]
-  },
   "dependencies": {
     "app-root-dir": "1.0.2",
     "axios": "0.16.1",
@@ -87,7 +76,7 @@
     "react-async-component": "1.0.0-beta.3",
     "react-dom": "15.5.4",
     "react-helmet": "5.0.3",
-    "react-jobs": "1.0.0-beta.2",
+    "react-jobs": "^1.0.0-beta.3",
     "react-redux": "5.0.4",
     "react-router-dom": "4.1.1",
     "redux": "3.6.0",
